@@ -17,6 +17,7 @@
 | ID. | Nome do Artefato |
 | --  |     --           |
 |     | C4Model          |
+|     | ISO-IEEE 42010   |
 
 
 ### 1.5. Visão Geral
