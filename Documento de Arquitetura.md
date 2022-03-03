@@ -41,6 +41,7 @@
 
 ### 4.2 Visão de Casos de Uso
 
+>![Image](https://github.com/Dener-arx/ufg-impacto/blob/main/Imagem/Casos%20de%20Uso.png)
 
 ## 5. Ponto de vista do Projetista
 
