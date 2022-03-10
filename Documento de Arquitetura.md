@@ -8,6 +8,7 @@
 
 ### 1.2. Escopo
 
+  
  
 ### 1.3. Definições, Acrônimos e Abreviações
  
@@ -21,8 +22,9 @@
 
 
 ### 1.5. Visão Geral
- 
- 
+
+
+
 ## 2. Contexto de Arquitetura
  
 ### 2.1. Funcionalidades e Restrições Arquiteturais
@@ -31,10 +33,11 @@
 
 ## 3. Representação da Arquitetura
 
--Arquitetura de Camadas-
+  A arquitetura do software a ser desenvolvido será uma arquitetura em camadas.
 
 ## 4. Ponto de vista dos Casos de Uso
 
+  
 
 ### 4.1 Descrição
 
