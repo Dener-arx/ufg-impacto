@@ -1,0 +1,16 @@
+{
+  "id_componente_curricular": 0,
+  "codigo": "string",
+  "nome": "string",
+  "id_unidade": 0,
+  "nivel": "string",
+  "tipo": "string",
+  "ementa": "string",
+  "bibliografia": "string",
+  "bibliografia_complementar": "string",
+  "ch_teorica": 0,
+  "ch_pratica": 0,
+  "ch_ead": 0,
+  "ch_pcc": 0,
+  "ch_total": 0
+}

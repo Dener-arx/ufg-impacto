@@ -1,0 +1,16 @@
+{
+  "id_curso": 0,
+  "nome": "string",
+  "habilitação": "string",
+  "grau_academico": "string",
+  "convenio_academico": "string",
+  "modalidade": "string",
+  "tipo_oferta_curso": "string",
+  "id_unidade": 0,
+  "unidade": "string",
+  "sigla_unidade": "string",
+  "municipio": "string",
+  "id_campus": 0,
+  "campus": "string",
+  "turno": "string"
+}

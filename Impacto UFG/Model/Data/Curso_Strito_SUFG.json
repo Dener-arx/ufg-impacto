@@ -1,0 +1,910 @@
+{
+  "rows": [
+    {
+      "Identificador curso": 90772138,
+      "Curso": "Doutorado Em Química",
+      "Nível": "Doutorado",
+      "Tipo": "Doutorado",
+      "Regional": "Regional Catalão",
+      "Unidade Responsável": "Unid. Acad. Esp/Quimica - Catalao",
+      "Sigla Unidade Responsável": "QUI"
+    },
+    {
+      "Identificador curso": 94203241,
+      "Curso": "Mestrado Acadêmico Em Química",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Jataí",
+      "Unidade Responsável": "Unid. Acad. Esp/Ciencias Exatas - Jata",
+      "Sigla Unidade Responsável": "CIEXA-JAT"
+    },
+    {
+      "Identificador curso": 94309775,
+      "Curso": "Doutorado Em Comunicação",
+      "Nível": "Doutorado",
+      "Tipo": "Doutorado",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Faculdade De Informação E Comunicação",
+      "Sigla Unidade Responsável": "FIC"
+    },
+    {
+      "Identificador curso": 94351574,
+      "Curso": "Doutorado Em Ciência Da Computação",
+      "Nível": "Doutorado",
+      "Tipo": "Doutorado",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Instituto De Informatica",
+      "Sigla Unidade Responsável": "INF"
+    },
+    {
+      "Identificador curso": 94384256,
+      "Curso": "Doutorado Em Direitos Humanos",
+      "Nível": "Doutorado",
+      "Tipo": "Doutorado",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Pró Reitoria De Pós-Graduação",
+      "Sigla Unidade Responsável": "PRPG"
+    },
+    {
+      "Identificador curso": 94391273,
+      "Curso": "Mestrado Em Educação Física",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Faculdade De Educação Fisica E Dança",
+      "Sigla Unidade Responsável": "FEFD"
+    },
+    {
+      "Identificador curso": 95541313,
+      "Curso": "Doutorado Em Nutrição E Saúde",
+      "Nível": "Doutorado",
+      "Tipo": "Doutorado",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Faculdade De Nutricao",
+      "Sigla Unidade Responsável": "FANUT"
+    },
+    {
+      "Identificador curso": 95762330,
+      "Curso": "Doutorado Em Estudos Da Linguagem",
+      "Nível": "Doutorado",
+      "Tipo": "Doutorado",
+      "Regional": "Regional Catalão",
+      "Unidade Responsável": "Unid. Acad. Esp/Letras E Linguistica C",
+      "Sigla Unidade Responsável": "ILELI-CAT"
+    },
+    {
+      "Identificador curso": 95824931,
+      "Curso": "Mestrado Em Engenharia De Produção",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Profissional",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Faculdade De Ciências E Tecnologia",
+      "Sigla Unidade Responsável": "FCT"
+    },
+    {
+      "Identificador curso": 96412818,
+      "Curso": "Doutorado Em Administração",
+      "Nível": "Doutorado",
+      "Tipo": "Doutorado",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Faculdade De Administração, Contabilidade E Economia",
+      "Sigla Unidade Responsável": "FACE"
+    },
+    {
+      "Identificador curso": 96950731,
+      "Curso": "Doutorado Em Biodiversidade Animal",
+      "Nível": "Doutorado",
+      "Tipo": "Doutorado",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Instituto De Ciencias Biologicas",
+      "Sigla Unidade Responsável": "ICB"
+    },
+    {
+      "Identificador curso": 97091067,
+      "Curso": "Doutorado Em Geotecnia, Estruturas E Construção Civil",
+      "Nível": "Doutorado",
+      "Tipo": "Doutorado",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Escola De Engenharia Civil E Ambiental",
+      "Sigla Unidade Responsável": "EECA"
+    },
+    {
+      "Identificador curso": 97293144,
+      "Curso": "Mestrado Em Engenharia Civil",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Catalão",
+      "Unidade Responsável": "Uae - De Engenharia - Catalão",
+      "Sigla Unidade Responsável": "FENG"
+    },
+    {
+      "Identificador curso": 97635657,
+      "Curso": "Mestrado Acadêmico Em Artes Da Cena",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Escola De Musica E Artes Cenicas",
+      "Sigla Unidade Responsável": "EMAC"
+    },
+    {
+      "Identificador curso": 99684598,
+      "Curso": "Mestrado Profissional Em Ensino De História",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Profissional",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Faculdade De Historia",
+      "Sigla Unidade Responsável": "FH"
+    },
+    {
+      "Identificador curso": 101402911,
+      "Curso": "Mestrado Acadêmico Em Engenharia Mecânica",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Escola De Engenharia Elétrica, Mecanica E De Computacao",
+      "Sigla Unidade Responsável": "EMC"
+    },
+    {
+      "Identificador curso": 104445728,
+      "Curso": "Doutorado Em Direito Agrário",
+      "Nível": "Doutorado",
+      "Tipo": "Doutorado",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Faculdade De Direito",
+      "Sigla Unidade Responsável": "FD"
+    },
+    {
+      "Identificador curso": 401937750,
+      "Curso": "Mestrado Profissional Em Gestão Organizacional",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Profissional",
+      "Regional": "Regional Catalão",
+      "Unidade Responsável": "Regional Catalão",
+      "Sigla Unidade Responsável": "REGCATALAO"
+    },
+    {
+      "Identificador curso": 401937751,
+      "Curso": "Mestrado Acadêmico Em Projeto E Cidade",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Faculdade De Artes Visuais",
+      "Sigla Unidade Responsável": "FAV"
+    },
+    {
+      "Identificador curso": 401937752,
+      "Curso": "Doutorado Em Biotecnologia E Biodiversidade",
+      "Nível": "Doutorado",
+      "Tipo": "Doutorado",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Pró Reitoria De Pós-Graduação",
+      "Sigla Unidade Responsável": "PRPG"
+    },
+    {
+      "Identificador curso": 401937753,
+      "Curso": "Mestrado Acadêmico Em Ciências Ambientais",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Pró Reitoria De Pós-Graduação",
+      "Sigla Unidade Responsável": "PRPG"
+    },
+    {
+      "Identificador curso": 401937754,
+      "Curso": "Mestrado Acadêmico Em Psicologia",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Faculdade De Educacao",
+      "Sigla Unidade Responsável": "FE"
+    },
+    {
+      "Identificador curso": 401937755,
+      "Curso": "Doutorado Em Engenharia Elétrica E De Computação",
+      "Nível": "Doutorado",
+      "Tipo": "Doutorado",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Escola De Engenharia Elétrica, Mecanica E De Computacao",
+      "Sigla Unidade Responsável": "EMC"
+    },
+    {
+      "Identificador curso": 401937756,
+      "Curso": "Mestrado Acadêmico Em Engenharia Ambiental E Sanitária",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Escola De Engenharia Civil E Ambiental",
+      "Sigla Unidade Responsável": "EECA"
+    },
+    {
+      "Identificador curso": 401937757,
+      "Curso": "Doutorado Em Antropologia Social",
+      "Nível": "Doutorado",
+      "Tipo": "Doutorado",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Faculdade De Ciencias Sociais",
+      "Sigla Unidade Responsável": "FCS"
+    },
+    {
+      "Identificador curso": 401937758,
+      "Curso": "Doutorado Em Performances Culturais",
+      "Nível": "Doutorado",
+      "Tipo": "Doutorado",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Faculdade De Ciencias Sociais",
+      "Sigla Unidade Responsável": "FCS"
+    },
+    {
+      "Identificador curso": 401937759,
+      "Curso": "Mestrado Profissional Em Educação Física",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Profissional",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Faculdade De Educação Fisica E Dança",
+      "Sigla Unidade Responsável": "FEFD"
+    },
+    {
+      "Identificador curso": 401937760,
+      "Curso": "Doutorado Em Ciência E Tecnologia De Alimentos",
+      "Nível": "Doutorado",
+      "Tipo": "Doutorado",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Escola De Agronomia",
+      "Sigla Unidade Responsável": "EA"
+    },
+    {
+      "Identificador curso": 401937761,
+      "Curso": "Doutorado Em Biologia Da Relação Parasito-Hospedeiro",
+      "Nível": "Doutorado",
+      "Tipo": "Doutorado",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Instituto De Patologia Tropical E Saude Publica",
+      "Sigla Unidade Responsável": "IPTSP"
+    },
+    {
+      "Identificador curso": 401937762,
+      "Curso": "Mestrado Acadêmico Em Direitos Humanos",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Pró Reitoria De Pós-Graduação",
+      "Sigla Unidade Responsável": "PRPG"
+    },
+    {
+      "Identificador curso": 401937763,
+      "Curso": "Doutorado Em Genética E Biologia Molecular",
+      "Nível": "Doutorado",
+      "Tipo": "Doutorado",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Instituto De Ciencias Biologicas",
+      "Sigla Unidade Responsável": "ICB"
+    },
+    {
+      "Identificador curso": 401937764,
+      "Curso": "Doutorado Em Inovação Farmacêutica",
+      "Nível": "Doutorado",
+      "Tipo": "Doutorado",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Faculdade De Farmacia",
+      "Sigla Unidade Responsável": "FF"
+    },
+    {
+      "Identificador curso": 401937765,
+      "Curso": "Doutorado Em Química",
+      "Nível": "Doutorado",
+      "Tipo": "Doutorado",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Instituto De Quimica",
+      "Sigla Unidade Responsável": "IQ"
+    },
+    {
+      "Identificador curso": 401937766,
+      "Curso": "Mestrado Acadêmico Em Biodiversidade Animal",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Instituto De Ciencias Biologicas",
+      "Sigla Unidade Responsável": "ICB"
+    },
+    {
+      "Identificador curso": 401937767,
+      "Curso": "Doutorado Em Ciências Farmacêuticas",
+      "Nível": "Doutorado",
+      "Tipo": "Doutorado",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Faculdade De Farmacia",
+      "Sigla Unidade Responsável": "FF"
+    },
+    {
+      "Identificador curso": 401937768,
+      "Curso": "Mestrado Acadêmico Em Direito Agrário",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Faculdade De Direito",
+      "Sigla Unidade Responsável": "FD"
+    },
+    {
+      "Identificador curso": 401937769,
+      "Curso": "Doutorado Em Ciência Da Computação",
+      "Nível": "Doutorado",
+      "Tipo": "Doutorado",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Instituto De Informatica",
+      "Sigla Unidade Responsável": "INF"
+    },
+    {
+      "Identificador curso": 401937770,
+      "Curso": "Mestrado Profissional Em Matemática Em Rede Nacional",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Profissional",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Instituto De Matematica E Estatistica",
+      "Sigla Unidade Responsável": "IME"
+    },
+    {
+      "Identificador curso": 401937771,
+      "Curso": "Mestrado Acadêmico Em Biodiversidade Vegetal",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Instituto De Ciencias Biologicas",
+      "Sigla Unidade Responsável": "ICB"
+    },
+    {
+      "Identificador curso": 401937772,
+      "Curso": "Mestrado Profissional Em Ensino Na Saúde",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Profissional",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Faculdade De Medicina",
+      "Sigla Unidade Responsável": "FM"
+    },
+    {
+      "Identificador curso": 401937773,
+      "Curso": "Mestrado Acadêmico Em Antropologia Social",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Faculdade De Ciencias Sociais",
+      "Sigla Unidade Responsável": "FCS"
+    },
+    {
+      "Identificador curso": 401937774,
+      "Curso": "Mestrado Acadêmico Em Arte E Cultura Visual",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Faculdade De Artes Visuais",
+      "Sigla Unidade Responsável": "FAV"
+    },
+    {
+      "Identificador curso": 401937775,
+      "Curso": "Doutorado Em Arte E Cultura Visual",
+      "Nível": "Doutorado",
+      "Tipo": "Doutorado",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Faculdade De Artes Visuais",
+      "Sigla Unidade Responsável": "FAV"
+    },
+    {
+      "Identificador curso": 401937776,
+      "Curso": "Mestrado Acadêmico Em Genética E Biologia Molecular",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Instituto De Ciencias Biologicas",
+      "Sigla Unidade Responsável": "ICB"
+    },
+    {
+      "Identificador curso": 401937778,
+      "Curso": "Mestrado Acadêmico Em Genética E Melhoramento De Plantas",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Escola De Agronomia",
+      "Sigla Unidade Responsável": "EA"
+    },
+    {
+      "Identificador curso": 401937779,
+      "Curso": "Doutorado Em Genética E Melhoramento De Plantas",
+      "Nível": "Doutorado",
+      "Tipo": "Doutorado",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Escola De Agronomia",
+      "Sigla Unidade Responsável": "EA"
+    },
+    {
+      "Identificador curso": 401937780,
+      "Curso": "Doutorado Em Sociologia",
+      "Nível": "Doutorado",
+      "Tipo": "Doutorado",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Faculdade De Ciencias Sociais",
+      "Sigla Unidade Responsável": "FCS"
+    },
+    {
+      "Identificador curso": 401937781,
+      "Curso": "Doutorado Em Matemática",
+      "Nível": "Doutorado",
+      "Tipo": "Doutorado",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Instituto De Matematica E Estatistica",
+      "Sigla Unidade Responsável": "IME"
+    },
+    {
+      "Identificador curso": 401937782,
+      "Curso": "Doutorado Em Enfermagem",
+      "Nível": "Doutorado",
+      "Tipo": "Doutorado",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Faculdade De Enfermagem",
+      "Sigla Unidade Responsável": "FEN"
+    },
+    {
+      "Identificador curso": 401937783,
+      "Curso": "Mestrado Profissional Em Saúde Coletiva",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Profissional",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Instituto De Patologia Tropical E Saude Publica",
+      "Sigla Unidade Responsável": "IPTSP"
+    },
+    {
+      "Identificador curso": 401937784,
+      "Curso": "Doutorado Em Nanotecnologia Farmacêutica",
+      "Nível": "Doutorado",
+      "Tipo": "Doutorado",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Faculdade De Farmacia",
+      "Sigla Unidade Responsável": "FF"
+    },
+    {
+      "Identificador curso": 401937785,
+      "Curso": "Mestrado Acadêmico Em Ciência Política",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Faculdade De Ciencias Sociais",
+      "Sigla Unidade Responsável": "FCS"
+    },
+    {
+      "Identificador curso": 401937786,
+      "Curso": "Mestrado Acadêmico Em Geografia",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Catalão",
+      "Unidade Responsável": "Regional Catalão",
+      "Sigla Unidade Responsável": "REGCATALAO"
+    },
+    {
+      "Identificador curso": 401937787,
+      "Curso": "Mestrado Acadêmico Em Nutrição E Saúde",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Faculdade De Nutricao",
+      "Sigla Unidade Responsável": "FANUT"
+    },
+    {
+      "Identificador curso": 401937788,
+      "Curso": "Mestrado Acadêmico Em Medicina Tropical E Saúde Pública",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Instituto De Patologia Tropical E Saude Publica",
+      "Sigla Unidade Responsável": "IPTSP"
+    },
+    {
+      "Identificador curso": 401937789,
+      "Curso": "Doutorado Em Medicina Tropical E Saúde Pública",
+      "Nível": "Doutorado",
+      "Tipo": "Doutorado",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Instituto De Patologia Tropical E Saude Publica",
+      "Sigla Unidade Responsável": "IPTSP"
+    },
+    {
+      "Identificador curso": 401937792,
+      "Curso": "Doutorado Em Cultura Visual",
+      "Nível": "Doutorado",
+      "Tipo": "Doutorado",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Faculdade De Artes Visuais",
+      "Sigla Unidade Responsável": "FAV"
+    },
+    {
+      "Identificador curso": 401937793,
+      "Curso": "Mestrado Acadêmico Em Educação",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Catalão",
+      "Unidade Responsável": "Regional Catalão",
+      "Sigla Unidade Responsável": "REGCATALAO"
+    },
+    {
+      "Identificador curso": 401937794,
+      "Curso": "Mestrado Acadêmico Em Estudos Da Linguagem",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Catalão",
+      "Unidade Responsável": "Unid. Acad. Esp/Letras E Linguistica C",
+      "Sigla Unidade Responsável": "ILELI-CAT"
+    },
+    {
+      "Identificador curso": 401937795,
+      "Curso": "Mestrado Acadêmico Em Química",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Catalão",
+      "Unidade Responsável": "Regional Catalão",
+      "Sigla Unidade Responsável": "REGCATALAO"
+    },
+    {
+      "Identificador curso": 401937796,
+      "Curso": "Mestrado Acadêmico Em Biologia Da Relação Parasito-Hospedeiro",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Instituto De Patologia Tropical E Saude Publica",
+      "Sigla Unidade Responsável": "IPTSP"
+    },
+    {
+      "Identificador curso": 401937797,
+      "Curso": "Mestrado Acadêmico Em Geotecnia, Estruturas E Construção Civil",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Escola De Engenharia Civil E Ambiental",
+      "Sigla Unidade Responsável": "EECA"
+    },
+    {
+      "Identificador curso": 401937798,
+      "Curso": "Doutorado Em Geografia",
+      "Nível": "Doutorado",
+      "Tipo": "Doutorado",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Instituto De Estudos Socio-Ambientais",
+      "Sigla Unidade Responsável": "IESA"
+    },
+    {
+      "Identificador curso": 401937799,
+      "Curso": "Mestrado Acadêmico Em Comunicação",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Faculdade De Informação E Comunicação",
+      "Sigla Unidade Responsável": "FIC"
+    },
+    {
+      "Identificador curso": 401937800,
+      "Curso": "Mestrado Acadêmico Em Educação Em Ciências E Matemática",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Pró Reitoria De Pós-Graduação",
+      "Sigla Unidade Responsável": "PRPG"
+    },
+    {
+      "Identificador curso": 401937801,
+      "Curso": "Mestrado Acadêmico Em Medicina Veterinária",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Escola De Veterinaria E Zootecnia",
+      "Sigla Unidade Responsável": "EVZ"
+    },
+    {
+      "Identificador curso": 401937802,
+      "Curso": "Doutorado Em Ciência Animal",
+      "Nível": "Doutorado",
+      "Tipo": "Doutorado",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Escola De Veterinaria E Zootecnia",
+      "Sigla Unidade Responsável": "EVZ"
+    },
+    {
+      "Identificador curso": 401937803,
+      "Curso": "Mestrado Acadêmico Em Engenharia Civil",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Escola De Engenharia Civil E Ambiental",
+      "Sigla Unidade Responsável": "EECA"
+    },
+    {
+      "Identificador curso": 401937804,
+      "Curso": "Mestrado Acadêmico Em Agronomia",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Escola De Agronomia",
+      "Sigla Unidade Responsável": "EA"
+    },
+    {
+      "Identificador curso": 401937805,
+      "Curso": "Mestrado Acadêmico Em Agronegócio",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Escola De Agronomia",
+      "Sigla Unidade Responsável": "EA"
+    },
+    {
+      "Identificador curso": 401937806,
+      "Curso": "Doutorado Em Ciências Da Saúde",
+      "Nível": "Doutorado",
+      "Tipo": "Doutorado",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Faculdade De Medicina",
+      "Sigla Unidade Responsável": "FM"
+    },
+    {
+      "Identificador curso": 401937807,
+      "Curso": "Mestrado Acadêmico Em Ciências Da Saúde",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Faculdade De Medicina",
+      "Sigla Unidade Responsável": "FM"
+    },
+    {
+      "Identificador curso": 401937808,
+      "Curso": "Doutorado Em Ciências Ambientais",
+      "Nível": "Doutorado",
+      "Tipo": "Doutorado",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Pró Reitoria De Pós-Graduação",
+      "Sigla Unidade Responsável": "PRPG"
+    },
+    {
+      "Identificador curso": 401937809,
+      "Curso": "Mestrado Acadêmico Em Engenharia Elétrica E De Computação",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Escola De Engenharia Elétrica, Mecanica E De Computacao",
+      "Sigla Unidade Responsável": "EMC"
+    },
+    {
+      "Identificador curso": 401937810,
+      "Curso": "Mestrado Acadêmico Em Geografia",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Instituto De Estudos Socio-Ambientais",
+      "Sigla Unidade Responsável": "IESA"
+    },
+    {
+      "Identificador curso": 401937811,
+      "Curso": "Mestrado Acadêmico Em Cultura Visual",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Faculdade De Artes Visuais",
+      "Sigla Unidade Responsável": "FAV"
+    },
+    {
+      "Identificador curso": 401937812,
+      "Curso": "Mestrado Acadêmico Em Música",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Escola De Musica E Artes Cenicas",
+      "Sigla Unidade Responsável": "EMAC"
+    },
+    {
+      "Identificador curso": 401937813,
+      "Curso": "Mestrado Acadêmico Em Física",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Instituto De Fisica",
+      "Sigla Unidade Responsável": "IF"
+    },
+    {
+      "Identificador curso": 401937814,
+      "Curso": "Mestrado Acadêmico Em Sociologia",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Faculdade De Ciencias Sociais",
+      "Sigla Unidade Responsável": "FCS"
+    },
+    {
+      "Identificador curso": 401937815,
+      "Curso": "Mestrado Acadêmico Em Matemática",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Instituto De Matematica E Estatistica",
+      "Sigla Unidade Responsável": "IME"
+    },
+    {
+      "Identificador curso": 401937816,
+      "Curso": "Mestrado Acadêmico Em Ciência Animal",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Escola De Veterinaria E Zootecnia",
+      "Sigla Unidade Responsável": "EVZ"
+    },
+    {
+      "Identificador curso": 401937817,
+      "Curso": "Doutorado Em Medicina Veterinária",
+      "Nível": "Doutorado",
+      "Tipo": "Doutorado",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Escola De Veterinaria E Zootecnia",
+      "Sigla Unidade Responsável": "EVZ"
+    },
+    {
+      "Identificador curso": 401937818,
+      "Curso": "Mestrado Acadêmico Em Química",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Instituto De Quimica",
+      "Sigla Unidade Responsável": "IQ"
+    },
+    {
+      "Identificador curso": 401937819,
+      "Curso": "Mestrado Profissional Em Química",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Profissional",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Instituto De Quimica",
+      "Sigla Unidade Responsável": "IQ"
+    },
+    {
+      "Identificador curso": 401937820,
+      "Curso": "Mestrado Acadêmico Em Biologia",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Instituto De Ciencias Biologicas",
+      "Sigla Unidade Responsável": "ICB"
+    },
+    {
+      "Identificador curso": 401937823,
+      "Curso": "Mestrado Acadêmico Em Enfermagem",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Faculdade De Enfermagem",
+      "Sigla Unidade Responsável": "FEN"
+    },
+    {
+      "Identificador curso": 401937824,
+      "Curso": "Mestrado Acadêmico Em Letras E Linguística",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Faculdade De Letras",
+      "Sigla Unidade Responsável": "FL"
+    },
+    {
+      "Identificador curso": 401937825,
+      "Curso": "Doutorado Em Letras E Linguística",
+      "Nível": "Doutorado",
+      "Tipo": "Doutorado",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Faculdade De Letras",
+      "Sigla Unidade Responsável": "FL"
+    },
+    {
+      "Identificador curso": 401937826,
+      "Curso": "Mestrado Acadêmico Em História",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Faculdade De Historia",
+      "Sigla Unidade Responsável": "FH"
+    },
+    {
+      "Identificador curso": 401937827,
+      "Curso": "Mestrado Acadêmico Em Direito",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Faculdade De Direito",
+      "Sigla Unidade Responsável": "FD"
+    },
+    {
+      "Identificador curso": 401937828,
+      "Curso": "Mestrado Acadêmico Em Odontologia",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Faculdade De Odontologia",
+      "Sigla Unidade Responsável": "FO"
+    },
+    {
+      "Identificador curso": 401937829,
+      "Curso": "Mestrado Acadêmico Em Filosofia",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Faculdade De Filosofia",
+      "Sigla Unidade Responsável": "FAFIL"
+    },
+    {
+      "Identificador curso": 401937830,
+      "Curso": "Mestrado Acadêmico Em Medicina Tropical",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Instituto De Patologia Tropical E Saude Publica",
+      "Sigla Unidade Responsável": "IPTSP"
+    },
+    {
+      "Identificador curso": 401937831,
+      "Curso": "Doutorado Em Medicina Tropical",
+      "Nível": "Doutorado",
+      "Tipo": "Doutorado",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Instituto De Patologia Tropical E Saude Publica",
+      "Sigla Unidade Responsável": "IPTSP"
+    },
+    {
+      "Identificador curso": 401937832,
+      "Curso": "Doutorado Em História",
+      "Nível": "Doutorado",
+      "Tipo": "Doutorado",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Faculdade De Historia",
+      "Sigla Unidade Responsável": "FH"
+    },
+    {
+      "Identificador curso": 401937833,
+      "Curso": "Mestrado Acadêmico Em Ciência Da Computação",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Instituto De Informatica",
+      "Sigla Unidade Responsável": "INF"
+    },
+    {
+      "Identificador curso": 401937834,
+      "Curso": "Mestrado Acadêmico Em Engenharia Do Meio Ambiente",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Escola De Engenharia Civil E Ambiental",
+      "Sigla Unidade Responsável": "EECA"
+    },
+    {
+      "Identificador curso": 401937835,
+      "Curso": "Doutorado Em Agronomia",
+      "Nível": "Doutorado",
+      "Tipo": "Doutorado",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Escola De Agronomia",
+      "Sigla Unidade Responsável": "EA"
+    },
+    {
+      "Identificador curso": 401937836,
+      "Curso": "Doutorado Em Biologia",
+      "Nível": "Doutorado",
+      "Tipo": "Doutorado",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Instituto De Ciencias Biologicas",
+      "Sigla Unidade Responsável": "ICB"
+    },
+    {
+      "Identificador curso": 401937837,
+      "Curso": "Mestrado Acadêmico Em Ecologia E Evolução",
+      "Nível": "Mestrado",
+      "Tipo": "Mestrado Acadêmico",
+      "Regional": "Regional Goiânia",
+      "Unidade Responsável": "Instituto De Ciencias Biologicas",
+      "Sigla Unidade Responsável": "ICB"
+    }
+  ],
+  "total_itens": 142,
+  "itens_por_pagina": 100,
+  "pagina": 1,
+  "total_paginas": 2,
+  "ordenar_por": "1",
+  "ordem": "ASC"
+}
