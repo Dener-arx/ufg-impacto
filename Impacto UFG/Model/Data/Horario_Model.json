@@ -1,9 +1,0 @@
-{
-  "id_horario": 0,
-  "id_unidade": 0,
-  "inicio": "string",
-  "fim": "string",
-  "id_nivel": "string",
-  "tipo": 0,
-  "ordem": 0
-}

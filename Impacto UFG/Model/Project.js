@@ -6,30 +6,7 @@
 
 
 
-let Url = "Data/Projetos.json"
+import {Project} from './Data/ProjectData.js';
 
-
-let  Project = getData(Url);
-
-
-function getUA(){
-    
-
-};
-
-
-function getWordCount(){
-    
-    getDescription();
-
-
-    return Obj;
-}
-
-function getDescription(){
-
-
-
-    return Obj;
-}
+console.log(Project);
 
