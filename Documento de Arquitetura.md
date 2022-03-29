@@ -33,7 +33,7 @@
 
 ## 3. Representação da Arquitetura
 
-  A arquitetura do software a ser desenvolvido será uma arquitetura em camadas.
+  A arquitetura do software a ser desenvolvido será uma arquitetura em MVC.
 
 ## 4. Ponto de vista dos Casos de Uso
 
