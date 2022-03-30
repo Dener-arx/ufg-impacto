@@ -1,58 +1,105 @@
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="UTF-8" /><meta content="IE=edge" http-equiv="X-UA-Compatible" />
-  <meta content="width=device-width, initial-scale=1" name="viewport" />
-  <title>JavaScript Tag Cloud Chart</title>
-  <link href="https://playground.anychart.com/NqAPYRCG/iframe" rel="canonical" />
-  <meta content="Tag Cloud,Weighted List Chart,Word Cloud,Tooltip" name="keywords" />
-  <meta content="AnyChart - JavaScript Charts designed to be embedded and integrated" name="description" />
-  <!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]--><style>html, body, #container {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}</style>
+<html>
+<title>Projetos</title>
+<head>
+  <script type="text/javascript" src="../../Model/ProjectData.js"></script>
+  <script type="text/javascript" src="../../Model/ProjectFunctions.js"></script>
+  <script type="text/javascript" src="../../Controller/CloudControler.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../Util/w3.css">
+
+<style>
+
+.header {
+  padding: 10px;
+  text-align: left;
+  text-indent: 100px;
+  line-height: 10px;
+  background: #0f0052;
+  color: white;
+  font-size: 20px;
+}
+
+
+.title{
+    text-indent:20px;
+}
+
+.content {
+    text-indent:20px;
+}
+
+
+
+</style>
+
 </head>
+
 <body>
-  <div id="container"></div>
-<script src="https://cdn.anychart.com/releases/v8/js/anychart-base.min.js"></script>
-<script src="https://cdn.anychart.com/releases/v8/js/anychart-tag-cloud.min.js"></script>
-<script type="text/javascript">
 
-anychart.onDocumentReady(function () {
-  var data = [
-    {"x": "Mandarin chinese", "value": 1090000000, category: "Sino-Tibetan"},
-    {"x": "English", "value": 983000000, category: "Indo-European"},
-    {"x": "Hindustani", "value": 544000000, category: "Indo-European"},
-    {"x": "Spanish", "value": 527000000, category: "Indo-European"},
-    {"x": "Arabic", "value": 422000000, category: "Afro-Asiatic"},
-    {"x": "Malay", "value": 281000000, category: "Austronesian"},
-    {"x": "Russian", "value": 267000000, category: "Indo-European"},
-    {"x": "Bengali", "value": 261000000, category: "Indo-European"},
-    {"x": "Portuguese", "value": 229000000, category: "Indo-European"},
-    {"x": "French", "value": 229000000, category: "Indo-European"},
-    {"x": "Hausa", "value": 150000000, category: "Afro-Asiatic"},
-    {"x": "Punjabi", "value": 148000000, category: "Indo-European"},
-    {"x": "Japanese", "value": 129000000, category: "Japonic"},
-    {"x": "German", "value": 129000000, category: "Indo-European"},
-    {"x": "Persian", "value": 121000000, category: "Indo-European"}
-  ];
+<!-- Header -->
+<div class = "header">
+    <h1>Impacto UFG</h1>
+    <p>Subtitulo</p>
+  </div>
 
-  // create a tag cloud chart
-  var chart = anychart.tagCloud(data);
+<!-- Topbar -->
+<div class="w3-bar w3-border w3-card-4 w3-light-gray">
+    <a href="../index.html" class="w3-bar-item w3-button w3-bottombar w3-hover-red">Home</a>
+    <a href="./Projetos.html" class="w3-bar-item w3-button w3-bottombar w3-hover-red">Projetos</a>
+    <a href="" class="w3-bar-item w3-button w3-bottombar w3-gray w3-hover-red">WordCloud</a>
+    <a href="./Empresas.html" class="w3-bar-item w3-button w3-bottombar w3-hover-red">Empresas</a>
+    <a href="#" class="w3-bar-item w3-button w3-bottombar w3-hover-red">Egressos</a>
+  </div>
 
-  // set the chart title
-  chart.title('15 most spoken languages')
-  // set array of angles, by which words will be placed
-  chart.angles([0])
-  // enable color range
-  chart.colorRange(true);
-  // set color range length
-  chart.colorRange().length('80%');
 
-  // display chart
-  chart.container("container");
-  chart.draw();
-});</script></body></html>
+  <body>
+
+
+    <select id="combobox" onchange="ConstructCloud(this)">
+        <option value="Ensino">Ensino</option>
+        <option value="Extensão">Extensão</option>
+        <option value="Pesquisa">Pesquisa</option>
+      </select>
+
+      <div id="target"></div>
+
+    <script>
+
+
+
+/////// Pass to a js node
+
+function ConstructCloud(obj){
+    let Choice = {};
+    var value = obj.value;
+    Choice = Select(value);
+
+    Choice = 
+
+    console.log(Choice);
+
+}
+
+function getProjects(obj){
+    var value = obj.value
+}
+
+/////////////////////////////
+
+</script>
+
+
+
+</body>
+</html>
+
+

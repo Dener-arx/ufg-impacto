@@ -3,33 +3,63 @@
 
 
 
-Project = P.content;
+
+let Ensino = getType("Ensino");
+let Extensao = getType("Extensão");
+let Pesquisa = getType("Pesquisa");
 
 
-// Ordena projetos por UA primeiro e então por titulo
-function UASort(){
-
+// Pega Projetos pelo tipo 
+function getType(type){
+    let i = 0;
+    let len = P.content.length;
+    let Array = [];
+    for ( i ; i<len ; i++ ){
+        if (P.content[i].tipo_projeto.indexOf(type) > -1) {
+            Array.push(P.content[i]);
+        }
+    }
+    Array = UASort(Array);
+    return Array;
 }
 
+// Ordena projetos por UA primeiro e então por titulo
+function UASort(Entry){
+    Entry.sort((a,b) => 
+    a.nome_unidade_projeto.localeCompare(b.nome_unidade_projeto) ||
+    a.titulo_projeto.localeCompare(b.titulo_projeto))
+    return Entry;
+}
 
-// Pega Descrição de todos os Projetos;
-// Receber valores individualmente dos tres tipos de projetos.
-function getDescription(){
+// Agrupa Projetos por UA
+function groupProject(Array){
+    let map = Array.reduce((r, { id_unidade_projeto, sigla_unidade_projeto, nome_unidade_projeto,...rest }) => {
+        let key = `${id_unidade_projeto}-${sigla_unidade_projeto}-${nome_unidade_projeto}`;
+        r[key] = r[key] || { id_unidade_projeto, sigla_unidade_projeto, nome_unidade_projeto, Projects: [] };
+        r[key]["Projects"].push(rest)
+        return r;
+      }, {})
+      
+      Array = Object.values(map)
+      return Array
+}
+
+// Pega Descrição de Projetos;
+function getDescription(Entry){
     let i = 0;
-    let len = Project.length;
+    let len = Entry.length;
     let array;
     for ( i ; i<len ; i++ ){
-        array += Project[i].resumo_projeto;
+        array += Entry[i].resumo_projeto;
     }
+
     return array;
 }
 
 // Conta as repetições de palavras nas descrições.
 // Falta remover palavras menores que 3 letras.
-function countWords(){
-    let array = getDescription();
+function countWords(array){
     let words = array.replace(/[^a-zA-Z ]/g, "").split(" ");
-
 
     obj = {};
     let i = 0;
@@ -42,56 +72,10 @@ function countWords(){
             obj[words[i]]++;
         }
     }
+    return obj;
 }
 
 
-
-
-
-
-
-
-// Pega Projetos de Ensino
-function getEnsino(){
-    let i = 0;
-    let len = Project.length;
-    let Ensino;
-    for ( i ; i<len ; i++ ){
-        if (Project[i].tipo_projeto.indexOf("Ensino") > -1) {
-            //Criar Array de Objetos;
-            //console.log(Project[i]);
-        }
-    }
-    return Ensino;
-}
-
-// Pega Projetos de Extensão
-function getExtensao(){
-    let i = 0;
-    let len = Project.length;
-    let Extensao;
-    for ( i ; i<len ; i++ ){
-        if (Project[i].tipo_projeto.indexOf("Extensão") > -1) {
-            //Criar Array de Objetos;
-            //console.log(Project[i]);
-        }
-    }
-    return Extensao;
-}
-
-// Pega Projetos de Pesquisa
-function getPesquisa(){
-    let i = 0;
-    let len = Project.length;
-    let Pesquisa;
-    for ( i ; i<len ; i++ ){
-        if (Project[i].tipo_projeto.indexOf("Pesquisa") > -1) {
-            //Criar Array de Objetos;
-            //console.log(Project[i]);
-        }
-    }
-    return Pesquisa;
-}
 
 
 
