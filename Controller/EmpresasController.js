@@ -1,0 +1,13 @@
+
+
+
+
+
+
+
+
+function getEmpresas(){
+
+    return Em;
+
+}

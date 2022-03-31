@@ -44,6 +44,39 @@ function groupProject(Array){
       return Array
 }
 
+
+// Pega Projetos pelo Tipo
+function getProjectByType(value){
+    
+    if (value === "Ensino" ){
+        return Ensino;
+    }
+    if (value === "Extensão" ){
+        return Extensao;
+    }
+    if (value === "Pesquisa" ){
+        return Pesquisa;
+    }
+
+}
+
+// Pega Projetos por palavra na descrição
+function getProjectByWord(value, Entry){
+    let i = 0;
+    let len = Entry.length;
+    let Array = [];
+
+
+    for ( i ; i<len ; i++ ){
+        if (Entry[i].resumo_projeto.includes(value)) {
+            Array.push(Entry[i]);
+        }
+        
+    }
+
+    return Array;
+}
+
 // Pega Descrição de Projetos;
 function getDescription(Entry){
     let i = 0;

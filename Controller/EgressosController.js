@@ -1,0 +1,13 @@
+
+
+
+
+
+
+
+
+function getEgressos(){
+
+    return Eg;
+
+}
