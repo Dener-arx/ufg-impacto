@@ -15,7 +15,7 @@ function Select(value){
 }
 
 
-//Search("cultura", Extensao )
+Search("cultura", Extensao )
 
 function Search(value, Entry){
 
