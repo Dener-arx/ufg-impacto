@@ -85,7 +85,7 @@ function getDescription(Entry){
     for ( i ; i<len ; i++ ){
         array += Entry[i].resumo_projeto;
     }
-
+    array = countWords(array);
     return array;
 }
 
@@ -109,6 +109,9 @@ function countWords(array){
 }
 
 
+function removeWords(array){
+
+}
 
 
 
