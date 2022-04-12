@@ -4,6 +4,7 @@
   
   body {
     margin: 0;
+    background-color: #000000;
   }
   
   .header {
@@ -63,10 +64,11 @@
     min-height: 600px;
     background-color: #ffffff;
     padding-left: 20px;
+    padding-right: 50px;
     display:flex; 
     flex-direction:column; 
   }
-  
+
   .row:after {
     content: "";
     display: table;
@@ -76,7 +78,8 @@
   .footer {
     padding: 20px;
     text-align: center;
-    background: #ddd;
+    background: lightslategray;
+    color:white;
   }
   
   @media screen and (max-width: 800px) {

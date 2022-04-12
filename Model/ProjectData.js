@@ -341,16 +341,6 @@ let P = {
       "resumo_projeto": "O projeto Produção de Materiais Didáticos Acessíveis tem como objetivo desenvolver produtos, assim como pesquisas na área de acessibilidade, inclusão e tecnologia para pessoas com deficiência. O atendimento aos projetos serão destinados tanto ao público interno da UFG quanto da comunidade externa."
     },
     {
-      "idProjeto": 12147,
-      "tipo_projeto": "Extensão",
-      "titulo_projeto": "Acessibilidade na Interface de Materiais Didáticos",
-      "id_unidade_projeto": 916,
-      "sigla_unidade_projeto": "CIAR",
-      "nome_unidade_projeto": "CENTRO INTEGRADO DE APRENDIZAGEM EM REDE",
-      "coordenacao_projeto": "WAGNER BANDEIRA DA SILVA",
-      "resumo_projeto": "O projeto Produção de Materiais Didáticos Acessíveis tem como objetivo desenvolver produtos, assim como pesquisas na área de acessibilidade, inclusão e tecnologia para pessoas com deficiência. O atendimento aos projetos serão destinados tanto ao público interno da UFG quanto da comunidade externa."
-    },
-    {
       "idProjeto": 16167,
       "tipo_projeto": "Pesquisa",
       "titulo_projeto": "ACESSIBILIDADE NA INTERFACE DE MATERIAIS DIDÁTICOS PARA EAD",

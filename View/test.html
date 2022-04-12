@@ -1,0 +1,105 @@
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<title>Projetos</title>
+<head>
+
+<style>
+
+.box{
+  padding-top: 10px;
+  float:right;
+}
+
+
+.container{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+.dropdown-container {
+  display: none;
+  background-color: #ffffff;
+  padding-left: 8px;
+}
+
+
+
+</style>
+
+</head>
+
+<body>
+
+
+    <div id="list">
+    </div>
+
+
+<script>
+
+
+function addDropdown(){
+
+  var dropdown = document.getElementsByClassName("dropdown-btn");
+  var i;
+
+  for (i = 0; i < dropdown.length; i++) {
+    dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+    dropdownContent.style.display = "none";
+    } else {
+    dropdownContent.style.display = "block";
+    }
+    });
+  }
+}
+
+/////////////////////////////
+
+makeButtons();
+
+function makeButtons(){
+  let i;
+  let end = 10;
+  let html = '';
+
+  for (i=0 ; i<end; i++ ){
+    html+=`<button class="dropdown-btn">button
+    </button>
+    <div class="dropdown-container">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+    </div>`;
+  }
+
+  document.querySelector('#list').innerHTML = html;
+
+
+  
+}
+
+
+
+
+
+
+</script>
+
+
+
+</body>
+</html>
+
+
