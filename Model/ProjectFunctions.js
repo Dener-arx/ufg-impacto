@@ -81,37 +81,54 @@ function getProjectByWord(value, Entry){
 function getDescription(Entry){
     let i = 0;
     let len = Entry.length;
-    let array;
+    let text;
     for ( i ; i<len ; i++ ){
-        array += Entry[i].resumo_projeto;
+        text += Entry[i].resumo_projeto;
     }
-    array = countWords(array);
-    return array;
+    text = filterWords(text);
+
+
+
+    return text;
+
+
 }
 
 // Conta as repetições de palavras nas descrições.
 // Falta remover palavras menores que 3 letras.
-function countWords(array){
-    let words = array.replace(/[^a-zA-Z ]/g, "").split(" ");
+function filterWords(text){
+    let words = text.replace(/[,.-]/g, '').split(" ");
 
-    obj = {};
+    let array = [];
     let i = 0;
-    let len = words.length
 
-    for (i = 0; i < len; i++) {
-        if (obj[words[i]] === undefined) {
-            obj[words[i]] = 1;
-        } else {
-            obj[words[i]]++;
+    for (let i = 0; i < words.length; i++) {
+        let exists = array.findIndex(a => a.name.toLowerCase() === words[i].toLowerCase());
+        if (exists > -1) array[exists].weight++;
+        else array.push({
+          name: words[i],
+          weight: 1
+        });
+    }
+
+    let array2 = [];
+
+    for ( i = 0 ; i<array.length ; i++ ){
+        if(array[i].name.length > 6 ){
+            if( array[i].weight > 5 ){
+                array2.push(array[i]);
+            }
         }
     }
-    return obj;
+
+    // Ensino Name.length > 4 e Weight > 1 
+
+    return array2;
+
+    
 }
 
 
-function removeWords(array){
-
-}
 
 
 

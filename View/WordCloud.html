@@ -1,32 +1,26 @@
-
-
-
-
-
-
-
-
 <!DOCTYPE html>
 <html>
-<title>Projetos</title>
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="./Util/w3.css">
-  <link rel="stylesheet" href="./Util/base.css">
+ <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./Util/w3.css">
+    <link rel="stylesheet" href="./Util/base.css">
 
-  <script type="text/javascript" src="../Model/ProjectData.js"></script>
-  <script type="text/javascript" src="../Model/ProjectFunctions.js"></script>
-  <script type="text/javascript" src="../Controller/CloudControler.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/wordcloud.js"></script>
+
+    <script type="text/javascript" src="../Model/ProjectData.js"></script>
+    <script type="text/javascript" src="../Model/ProjectFunctions.js"></script>
+    <script type="text/javascript" src="../Controller/CloudControler.js"></script>
 
 <style>
 
 .box{
-  padding-top: 10px;
-  float:right;
+    padding-top: 10px;
+    float:right;
 }
 
 .list{
-  padding-top: 10px;
+    padding-top: 10px;
 }
 
 </style>
@@ -39,11 +33,11 @@
 <!-- Header -->
 <div class = "header">
 
-  <div class="logo">
-  </div>
+    <div class="logo">
+    </div>
 
-  <h1>Impacto UFG</h1>
-  <p>Subtitulo</p>
+    <h1>Impacto UFG</h1>
+    <p>Subtitulo</p>
 
 </div>
 
@@ -62,58 +56,122 @@
   <div class="side">
   </div>
   <div class="content">
-
-    <h1 style="align-self:flex-start">Projetos WordCloud</h1>
+    
+    <h1 style="align-self:flex-start">WordCloud</h1>
 
     <div class="box">
       Tipo: 
-    <select id="selectBox" onchange="ConstructCloud(this)">
+    <select id="selectBox" onchange="constructCloud(this)">
       <option value="Ensino">Ensino</option>
       <option value="Extensão">Extensão</option>
       <option value="Pesquisa">Pesquisa</option>
     </select>
     </div>
 
-    <div class="list">
-      <!------------List Content----------------->
+    <div id="cloud"></div>
+    
+    <div id="container">
+        <ul id="list"></ul>
     </div>
 
   </div>
   <div class="side">
   </div>
 </div>
-
-
-<!-- Footer -->
-<div class="footer">
-  Footer
-</div>
-
-
+    
 <script>
+
+
+function constructCloud(obj){
+
+    document.querySelector('#list').innerHTML = '';
+
+    let data = {};
+    var value = obj.value;
+    data = Select(value);
+
+
+Highcharts.seriesTypes.wordcloud.prototype.placementStrategy.test = function(point, options) {
+  return {
+    x: -point.weight * 1,
+    y: -point.weight * 1,
+    rotation: 0
+  };
+}
+
+Highcharts.chart('cloud', {
+  
+    series: [{
+    type: 'wordcloud',
+    data: data,
+    events: {
+        click: e => {
+          createList(e.point.name);
+          /* Do stuff here, based on e.point.name */
+        }
+    },
+    name: 'Occurrences',
+    placementStrategy: 'test',
+    rotation: {
+      from: 0,
+      to: 0
+    }
+  }],
+  title: {
+    text: ''
+  }
+});
+
+}
+
+function createList(word){
+    let Projects = Search(word, selectBox.value);
+    console.log(Projects);
+
+    let html = `<h3>Buscando: ${word}</h3>`;
+
+    for(var x in Projects) {
+        html += `
+            <button class="dropdown-btn">${Projects[x].idProjeto} - ${Projects[x].titulo_projeto}</button>
+            <div class="dropdown-container">
+                <b>Unidade Academica:</b> ${Projects[x].sigla_unidade_projeto} - ${Projects[x].nome_unidade_projeto}</br>
+                <b>Tipo de Projeto:</b> ${Projects[x].tipo_projeto}</br></br>
+                <b>Resumo do Projeto:</b> ${Projects[x].resumo_projeto}</br></br>
+                <b>Coordenador do Projeto:</b> ${Projects[x].coordenacao_projeto}
+            </div>`
+    }
+
+
+    document.querySelector('#list').innerHTML = html;
+    addDropdown();
+
+}
+
+
+function addDropdown(){
+
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+    dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+        dropdownContent.style.display = "none";
+    } else {
+        dropdownContent.style.display = "block";
+    }
+    });
+}
+}
+
+
 
 /////// Pass to a js node
 
-function ConstructCloud(obj){
-    let Choice = {};
-    var value = obj.value;
-    Choice = Select(value);
-
-    console.log(Choice);
-    
-}
-
-function Search(obj){
-    var value = obj.value
-}
-
-/////////////////////////////
-
 </script>
 
-
-
-</body>
+  </body>
 </html>
-
 

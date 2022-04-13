@@ -5,21 +5,23 @@
 
 
 
+//
+function Select(type){
 
-function Select(value){
+    let array = getProjectByType(type);
 
-    let Choice = getProjectByType(value);
+    array = getDescription(array);
+    return array;
+}
 
-    Choice = getDescription(Choice);
-    return Choice;
+// Busca projetos do tipo x que contem a palavra ''.
+function Search(word, type){
+
+    let Entry = getProjectByType(type);
+
+    let Array = getProjectByWord(word, Entry);
+
+    return Array;
 }
 
 
-//Search("cultura", Extensao )
-
-function Search(value, Entry){
-
-    let Array = getProjectByWord(value, Entry);
-
-    console.log(Array);
-}
