@@ -8,8 +8,12 @@
   <link rel="stylesheet" href="./Util/w3.css">
   <link rel="stylesheet" href="./Util/base.css">
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+
   <script type="text/javascript" src="../Model/EgressosData.js"></script>
+  <script type="text/javascript" src="../Model/EgressosFunction.js"></script>
   <script type="text/javascript" src="../Controller/EgressosController.js"></script>
+
 
 </head>
 
@@ -34,7 +38,7 @@
 <a href="./Projetos.html">Projetos</a>
 <a href="./WordCloud.html">WordCloud</a>
 <a href="./Empresas.html">Empresas</a>
-<a href="#" style="background:gray">Egressos</a>
+<a href="#" style="background:gray">Estudantes</a>
 </div>
 
 <!-- Content -->
@@ -42,8 +46,78 @@
   <div class="side">
   </div>
   <div class="content">
-      content
-  </div>
+
+    <div class="tab">
+        <button class="tablinks" onclick="changeTab(event, 'Ingressos')">Ingressos por Ano</button>
+        <button class="tablinks" onclick="changeTab(event, 'Estudantes')">Estudantes por Municipio/Curso</button>
+        <button class="tablinks" onclick="changeTab(event, 'Desvinculados')">Desvinculações por Ano</button>
+    </div>
+    
+    <!-- Ingressos Tab-->
+    <div id="Ingressos" class="tabcontent">
+        <h1>Metodos de Ingressos por Ano</h1>
+
+    <div class="box">
+        <b>Ano:</b> 
+        <select id="selectBox" onchange="createInCanvas(this)">
+        <option value="2010">2010</option>
+        <option value="2011">2011</option>
+        <option value="2012">2012</option>
+        <option value="2013">2013</option>
+        <option value="2014">2014</option>
+        <option value="2015">2015</option>
+        <option value="2016">2016</option>
+        <option value="2017">2017</option>
+        <option value="2018">2018</option>
+        <option value="2019">2019</option>
+        <option value="2020">2020</option>
+        <option value="2021">2021</option>
+      </select>
+    </div>
+
+      <div id="ChartBox">
+      </div>
+    
+      </div>
+      
+    <!-- Estudantes Tab -->
+      <div id="Estudantes" class="tabcontent">
+        <h1>Estudantes por Municipio/Curso</h1>
+
+      <div id="container">
+        <ul id="list"></ul>
+    </div>
+      </div>
+    
+    <!-- Desvinculamentos Tab -->
+      <div id="Desvinculados" class="tabcontent">
+        <h1>Motivos de Desvinculamentos por Ano</h1>
+        <div class="box2">
+            <b>Ano:</b> 
+          <select id="selectBox2" onchange="createDeCanvas(this)">
+            <option value="2010">2010</option>
+            <option value="2011">2011</option>
+            <option value="2012">2012</option>
+            <option value="2013">2013</option>
+            <option value="2014">2014</option>
+            <option value="2015">2015</option>
+            <option value="2016">2016</option>
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+          </select>
+          </div>
+
+        <div id="ChartBox2">
+        </div>
+      </div>
+    
+    
+    
+    </div>
+
   <div class="side">
   </div>
 </div>
@@ -57,14 +131,153 @@
 
 
 
-
   <script>
 
-    let Egressos = getEgressos();
+
+/// Cria Canvas para o Grafico de Ingressos
+function createInCanvas(obj){
     
-    console.log(Egressos);
+    let html = "";
+    html += `<canvas id="myChart" style="width:100%;max-width:400px;"></canvas>`
+
+    document.querySelector('#ChartBox').innerHTML = html;
     
-    </script>
+    let data = getDateIngressos(obj.value)
+
+    var xValues = [];
+    var yValues = [];
+
+    let i;
+    for ( i=0; i<data.length ; i++ ){
+        xValues.push(data[i].Forma_Ingresso);
+        yValues.push(data[i].Count);
+    }
+
+    makeChart("myChart", xValues, yValues);
+
+
+}
+
+/// Cria Canvas para o Grafico de Desvinculamentos
+function createDeCanvas(obj){
+    
+    let html = "";
+    html += `<canvas id="myChart2" style="width:100%;max-width:400px;"></canvas>`
+
+    document.querySelector('#ChartBox2').innerHTML = html;
+    
+    let data = getDateDesvinculo(obj.value);
+
+    var xValues = [];
+    var yValues = [];
+
+    let i;
+    for ( i=0; i<data.length ; i++ ){
+        xValues.push(data[i].Motivo_desvinculo);
+        yValues.push(data[i].Count);
+    }
+
+    makeChart("myChart2", xValues, yValues);
+
+}
+
+/// Cria Grafico
+function makeChart(id, xValues, yValues){
+
+var barColors = ["red", "green","blue","orange","brown","violet","cyan"];
+
+new Chart(id, {
+  type: "pie",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    title: {
+      display: true,
+      text: ""
+    }
+  }
+});
+
+}
+
+// Adiciona a função dropdown para os botões
+function addDropdown(){
+
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+    dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+        dropdownContent.style.display = "none";
+    } else {
+        dropdownContent.style.display = "block";
+    }
+    });
+}
+}
+
+
+ConstructList();
+
+//Constroi lista de estudantes por Municipio e Curso
+function ConstructList(){
+    
+    let data = getEstudantesData();
+
+    let html = '';
+
+    for(var x in data) {
+        html += `
+            <button class="dropdown-btn">${data[x].Municipio}
+            </button>
+            <div class="dropdown-container">`;
+
+            for(var y in data[x].Cursos){
+                html +=`<button class="dropdown-btn">${data[x].Cursos[y].Curso}
+                </button>
+                <div class="dropdown-container">
+                    <h4>Quantidade de Estudantes Inscritos no Curso de ${data[x].Cursos[y].Curso} à partir de 2010</h4>
+                    <table style="width:400px">`
+
+                    for(var z in data[x].Cursos[y].row){
+                        html += `<tr><td>${data[x].Cursos[y].row[z].Status}s</td>
+                            <td>${data[x].Cursos[y].row[z].Count}</td></tr>`
+                    }
+                html += `</table></div>`;
+            }
+
+            html +=`</div>`;
+
+    }
+
+    document.querySelector('#list').innerHTML = html;
+    addDropdown();
+}
+
+// Tabulação
+function changeTab(evt, tabName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(tabName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+  </script>
 
 
 </body>

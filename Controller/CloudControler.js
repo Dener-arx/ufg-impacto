@@ -5,16 +5,16 @@
 
 
 
-//
+// Recebe valor de tipo de projeto e retorna descrição de todos eles. 
 function Select(type){
 
     let array = getProjectByType(type);
 
-    array = getDescription(array);
+    array = getDescription(array, type);
     return array;
 }
 
-// Busca projetos do tipo x que contem a palavra ''.
+// Busca projetos do tipo 'type' que contem a palavra 'word'.
 function Search(word, type){
 
     let Entry = getProjectByType(type);

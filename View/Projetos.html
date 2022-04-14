@@ -49,7 +49,7 @@
 <a href="#" style="background:gray">Projetos</a>
 <a href="./WordCloud.html">WordCloud</a>
 <a href="./Empresas.html">Empresas</a>
-<a href="./Egressos.html">Egressos</a>
+<a href="./Egressos.html">Estudantes</a>
 </div>
 
 <!-- Content -->
@@ -62,7 +62,7 @@
 
     <div class="box">
       <b>Tipo:</b> 
-    <select id="selectBox" onchange="ConstructTable(this)">
+    <select id="selectBox" onchange="ConstructList(this)">
       <option value="Ensino">Ensino</option>
       <option value="Extensão">Extensão</option>
       <option value="Pesquisa">Pesquisa</option>
@@ -88,7 +88,7 @@
 <script>
 
 
-
+// Adiciona função Dropdown aos botões
 function addDropdown(){
 
 var dropdown = document.getElementsByClassName("dropdown-btn");
@@ -109,9 +109,9 @@ for (i = 0; i < dropdown.length; i++) {
 
 
 
-/////// Pass to a js node
 
-function ConstructTable(obj){
+/// Constroi lista de Projetos por Unidade Academica
+function ConstructList(obj){
     let Choice = {};
     var value = obj.value;
     Choice = Select(value);
@@ -140,8 +140,6 @@ function ConstructTable(obj){
     addDropdown();
 }
 
-
-/////////////////////////////
 
 
 

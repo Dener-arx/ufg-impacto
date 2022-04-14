@@ -66,7 +66,6 @@ function getProjectByWord(value, Entry){
     let len = Entry.length;
     let Array = [];
 
-
     for ( i ; i<len ; i++ ){
         if (Entry[i].resumo_projeto.includes(value)) {
             Array.push(Entry[i]);
@@ -78,16 +77,14 @@ function getProjectByWord(value, Entry){
 }
 
 // Pega Descrição de Projetos;
-function getDescription(Entry){
+function getDescription(Entry, type){    
     let i = 0;
     let len = Entry.length;
     let text;
     for ( i ; i<len ; i++ ){
         text += Entry[i].resumo_projeto;
     }
-    text = filterWords(text);
-
-
+    text = filterWords(text, type);
 
     return text;
 
@@ -95,8 +92,7 @@ function getDescription(Entry){
 }
 
 // Conta as repetições de palavras nas descrições.
-// Falta remover palavras menores que 3 letras.
-function filterWords(text){
+function filterWords(text, type){
     let words = text.replace(/[,.-]/g, '').split(" ");
 
     let array = [];
@@ -111,17 +107,26 @@ function filterWords(text){
         });
     }
 
-    let array2 = [];
+    let array2 = [];    
+    let n;
+    let w;
+
+    if (type === "Ensino" ){
+        n = 4;
+        w = 1;
+    }
+    else{
+        n = 6;
+        w = 5;
+    }
 
     for ( i = 0 ; i<array.length ; i++ ){
-        if(array[i].name.length > 6 ){
-            if( array[i].weight > 5 ){
+        if(array[i].name.length > n ){
+            if( array[i].weight > w ){
                 array2.push(array[i]);
             }
         }
     }
-
-    // Ensino Name.length > 4 e Weight > 1 
 
     return array2;
 

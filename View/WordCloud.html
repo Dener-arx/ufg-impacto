@@ -48,7 +48,7 @@
 <a href="./Projetos.html">Projetos</a>
 <a href="#" style="background:gray">WordCloud</a>
 <a href="./Empresas.html">Empresas</a>
-<a href="./Egressos.html">Egressos</a>
+<a href="./Egressos.html">Estudantes</a>
 </div>
 
 <!-- Content -->
@@ -81,7 +81,7 @@
     
 <script>
 
-
+// Constroi WordCloud
 function constructCloud(obj){
 
     document.querySelector('#list').innerHTML = '';
@@ -89,7 +89,6 @@ function constructCloud(obj){
     let data = {};
     var value = obj.value;
     data = Select(value);
-
 
 Highcharts.seriesTypes.wordcloud.prototype.placementStrategy.test = function(point, options) {
   return {
@@ -107,7 +106,6 @@ Highcharts.chart('cloud', {
     events: {
         click: e => {
           createList(e.point.name);
-          /* Do stuff here, based on e.point.name */
         }
     },
     name: 'Occurrences',
@@ -124,9 +122,10 @@ Highcharts.chart('cloud', {
 
 }
 
+
+// Constroi lista de projetos baseados na palavra selecionada
 function createList(word){
     let Projects = Search(word, selectBox.value);
-    console.log(Projects);
 
     let html = `<h3>Buscando: ${word}</h3>`;
 
@@ -147,7 +146,7 @@ function createList(word){
 
 }
 
-
+// Adiciona função Dropdown aos botões
 function addDropdown(){
 
 var dropdown = document.getElementsByClassName("dropdown-btn");
@@ -166,9 +165,6 @@ for (i = 0; i < dropdown.length; i++) {
 }
 }
 
-
-
-/////// Pass to a js node
 
 </script>
 

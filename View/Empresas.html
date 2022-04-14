@@ -19,7 +19,7 @@
 
 </head>
 
-<body onload="ConstructTable()">
+<body onload="ConstructList()">
 
 <!-- Header -->
 <div class = "header">
@@ -38,7 +38,7 @@
 <a href="./Projetos.html">Projetos</a>
 <a href="./WordCloud.html">WordCloud</a>
 <a href="#" style="background:gray">Empresas</a>
-<a href="./Egressos.html">Egressos</a>
+<a href="./Egressos.html">Estudantes</a>
 </div>
 
 <!-- Content -->
@@ -64,7 +64,7 @@
 
 <script>
 
-/////////////////////////////
+// Adiciona função Dropdown aos botões
 function addDropdown(){
 
 var dropdown = document.getElementsByClassName("dropdown-btn");
@@ -85,9 +85,8 @@ for (i = 0; i < dropdown.length; i++) {
 
 
 
-/////// Pass to a js node
-
-function ConstructTable(){
+// Constroi lista de empresas
+function ConstructList(){
     let Empresas = getEmpresas();
     console.log(Empresas);
     let html = '';
