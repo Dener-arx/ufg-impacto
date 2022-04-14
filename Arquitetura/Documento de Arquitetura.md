@@ -24,7 +24,7 @@
 
 ## 2. Contexto de Arquitetura
 
-O contexto de arquitetura deste software é bastante amplo, sendo somente necessário implementar as funções designadas no escopo do projeto, não importando o metodo, contanto que seja seguida as decisões arquiteturais estabelecidas e o software seja funcional. 
+O contexto de arquitetura deste software é bastante amplo, sendo somente necessário implementar as funções designadas no escopo do projeto, não importando o metodo, contanto que sejam seguidas as decisões arquiteturais estabelecidas ao longo do projeto e o software seja funcional. 
 
 ### 2.1. Funcionalidades e Restrições Arquiteturais
 
