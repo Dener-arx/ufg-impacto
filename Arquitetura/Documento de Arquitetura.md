@@ -53,11 +53,11 @@ Desta forma, os atributos de qualidade prioritários durante o desenvolvimento d
 
 ### 3.1 Descrição
 
+O diagrama de casos de uso a seguir foi criado com base nas funcionalidades esperadas do sistema e será tomado em conta durante as decisões arquiteturais do software.
 
 ### 3.2 Visão de Casos de Uso
 
 >![Image](https://github.com/Dener-arx/ufg-impacto/blob/main/Arquitetura/Imagem/Casos%20de%20Uso.png)
-
 
 ## 4. Representação da Arquitetura
 
