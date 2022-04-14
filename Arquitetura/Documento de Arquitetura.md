@@ -8,10 +8,11 @@
 
 ### 1.2. Escopo
 
-  
+  Este documento se baseia no documento de definição básico do sistema Impacto UFG, onde são definidas funcionalidades e restrições do sistema, que são relevantes para as decisões arquiteturais do projeto.
  
 ### 1.3. Definições, Acrônimos e Abreviações
- 
+
+
  
 ### 1.4. Referências 
  
@@ -21,15 +22,17 @@
 |     | ISO-IEEE 42010   |
 
 
-### 1.5. Visão Geral
-
-
-
 ## 2. Contexto de Arquitetura
  
 ### 2.1. Funcionalidades e Restrições Arquiteturais
 
+Funcionalidades do sisteama.
+Os dados irão vir de fontes externas.
+
 ### 2.2 Atributos de Qualidades Prioritários
+
+O software está em seus estados iniciais, e será implementado mais funções, então deve-se priorizar a escalabilidade.
+O software lida com uma quantidade grande de dados, então eficiencia tambem é um atributo de qualidade importante.
 
 ## 3. Representação da Arquitetura
 
@@ -72,16 +75,4 @@
 ### 6.3 Visão de segurança
 
 #### 6.3.1 Detalhamento da segurança
-
-
-## 7. Ponto de vista do Implantador
-
-
-### 7.1 Visão Geral
-
-
-### 7.2 Visão física
-
-
-#### 7.2.1 Detalhamento dos nós-físicos
 
