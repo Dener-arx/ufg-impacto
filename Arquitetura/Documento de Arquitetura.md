@@ -79,7 +79,7 @@ Das partes externas, nos temos os **usuários**, que utilizam o software, e os s
 
 Os usuários tem acessa à aplicação atraves do componente **Cliente**, representado por seu navegador, que realiza a comunicação com o **Servidor**.
 
-O componente **Servidor** é responsável pela implementação das funcionalidades do sistema, atribuindo responsabilidades a cada uma de suas camadas. Sendo utilizado a arquitetura MVC(Model, View, Controller), tem-se o seguinte:
+O componente **Servidor**, por sua vez, é responsável pela implementação das funcionalidades do sistema, atribuindo responsabilidades especificas a cada uma de suas camadas. Sendo utilizado a arquitetura MVC(Model, View, Controller), tem-se o seguinte:
 - View: Responsável pela apresentação do conteudo e interação com o usuário.
 - Controller: Responsável pela comunicação da camada View com a camada Model.
 - Model: Responsável pela manipulação de dados e pela lógica do sistema.
