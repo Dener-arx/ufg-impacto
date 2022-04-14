@@ -39,17 +39,13 @@ O contexto de arquitetura deste software é bastante amplo, sendo somente necess
 |Fun06|Dados de Ingressos|O sistema deve disponibilizar dados de ingressos da UFG|
 |Fun07|Dados de Egressos|O sistema deve disponibilizar dados de egressos da UFG|
 
-
-Restrições do Sistema
-
-
-Funcionalidades do sisteama.
-Os dados irão vir de fontes externas.
-
 ### 2.2 Atributos de Qualidades Prioritários
 
-O software está em seus estados iniciais, e será implementado mais funções, então deve-se priorizar a escalabilidade.
-O software lida com uma quantidade grande de dados, então eficiencia tambem é um atributo de qualidade importante.
+Estando o software em estado inicial de planejamento, deve-se priorizar a escalabilidade e manutenibilidade do mesmo, sendo que adições ou alterações de funções podem ocorrer a qualquer momento. 
+
+Outro aspecto importante é a necessidade de lidar com um grande volume de dados, o que requere um foco na eficiencia do software. 
+
+Desta forma, os atributos de qualidade prioritários durante o desenvolvimento do software serão: **Escalabilidade, Manutenibilidade e Eficiencia**.
 
 ## 3. Ponto de vista dos Casos de Uso
 
