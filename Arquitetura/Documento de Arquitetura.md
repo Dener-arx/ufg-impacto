@@ -91,3 +91,4 @@ O diagrama a seguir apresenta a estrutura interna das camadas do componente **Se
 - Os elementos **JS** na camada **Controller** são responsáveis pela comunicação de suas respectivas interfaces com a camada **Model**.
 - Os elementos **JS** na camada **Model** são responsáveis por realizar as manipulações necessárias nos dados.
 - Os elementos **Dados** na camada **Model** representam os conjuntos de dados, que podem ser manipulados, ou usados diretamente.
+- O elemento **API** na camada **Model** representa uma interface para a obtenção dos dados. (Não Implementado). 
