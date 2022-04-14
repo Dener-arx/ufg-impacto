@@ -49,8 +49,6 @@ Desta forma, os atributos de qualidade prioritários durante o desenvolvimento d
 
 ## 3. Ponto de vista dos Casos de Uso
 
-  
-
 ### 3.1 Descrição
 
 O diagrama de casos de uso a seguir foi criado com base nas funcionalidades esperadas do sistema e será tomado em conta durante as decisões arquiteturais do software.
@@ -61,7 +59,7 @@ O diagrama de casos de uso a seguir foi criado com base nas funcionalidades espe
 
 ## 4. Representação da Arquitetura
 
-  A arquitetura do software a ser desenvolvido será uma arquitetura em MVC.
+  A arquitetura do software a ser desenvolvido será uma arquitetura em MVC, cuja representação utilizará de uma versão modificada do Modelo C4. Seguindo o padrão 'Contexto, Componente e Camada', ao inves de 'Contexto, Container, Componente, Codigo'. 
 
 ### 4.1 Diagrama de Contexto
 
@@ -84,9 +82,9 @@ O componente **Servidor**, por sua vez, é responsável pela implementação das
 - Controller: Responsável pela comunicação da camada View com a camada Model.
 - Model: Responsável pela manipulação de dados e pela lógica do sistema.
 
-### 4.3 Diagrama de Classes
+### 4.3 Diagrama de Camadas
 
+O diagrama a seguir apresenta a estrutura interna das camadas do componente **Servidor**, e mostra como seus elementos interagem.
 
-
->![Image](https://github.com/Dener-arx/ufg-impacto/blob/main/Arquitetura/Imagem/Diagrama%20de%20Classes.png)
+>![Image](https://github.com/Dener-arx/ufg-impacto/blob/main/Arquitetura/Imagem/Diagrama%20de%20Camadas.png)
 
