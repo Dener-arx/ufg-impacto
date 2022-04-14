@@ -10,8 +10,6 @@
 
   Este documento se baseia no documento de definição básico do sistema Impacto UFG, onde são definidas funcionalidades e restrições do sistema, que são relevantes para as decisões arquiteturais do projeto.
  
-### 1.3. Definições, Acrônimos e Abreviações
-
 ### 1.4. Referências 
  
 | ID. | Nome do Artefato |
@@ -26,7 +24,6 @@ O contexto de arquitetura deste software é bastante amplo, sendo somente necess
 
 ### 2.1. Funcionalidades e Restrições Arquiteturais
 
-**Funções**
 |ID|Funcionalidade|Descrição|
 |--|--|--|
 |Fun01|Disponibilizar Projetos|O sistema deve disponibilizar projetos de acordo com seu tipo|
