@@ -4,7 +4,7 @@
 
 ### 1.1. Finalidade
 
-  Este documento tem como finalidade definir as decisões e caracteristicas arquiteturais do software UFG-Impacto.
+  Este documento tem como finalidade definir as decisões e características arquiteturais do software UFG-Impacto.
 
 ### 1.2. Escopo
 
@@ -20,7 +20,7 @@
 
 ## 2. Contexto de Arquitetura
 
-O contexto de arquitetura deste software é bastante amplo, sendo somente necessário implementar as funções designadas no escopo do projeto, não importando o metodo, contanto que sejam seguidas as decisões arquiteturais estabelecidas ao longo do projeto e o software seja funcional. 
+O contexto de arquitetura deste software é bastante amplo, sendo somente necessário implementar as funções designadas no escopo do projeto, não importando o método, contanto que sejam seguidas as decisões arquiteturais estabelecidas ao longo do projeto e o software seja funcional. 
 
 ### 2.1. Funcionalidades e Restrições Arquiteturais
 
@@ -38,9 +38,9 @@ O contexto de arquitetura deste software é bastante amplo, sendo somente necess
 
 Estando o software em estado inicial de planejamento, deve-se priorizar a escalabilidade e manutenibilidade do mesmo, sendo que adições ou alterações de funções podem ocorrer a qualquer momento. 
 
-Outro aspecto importante é a necessidade de lidar com um grande volume de dados, o que requere um foco na eficiencia do software. 
+Outro aspecto importante é a necessidade de lidar com um grande volume de dados, o que requer um foco na eficiência do software. 
 
-Desta forma, os atributos de qualidade prioritários durante o desenvolvimento do software serão: **Escalabilidade, Manutenibilidade e Eficiencia**.
+Desta forma, os atributos de qualidade prioritários durante o desenvolvimento do software serão: **Escalabilidade, Manutenibilidade e Eficiência**.
 
 ## 3. Ponto de vista dos Casos de Uso
 
@@ -54,7 +54,7 @@ O diagrama de casos de uso a seguir foi criado com base nas funcionalidades espe
 
 ## 4. Representação da Arquitetura
 
-  A arquitetura do software a ser desenvolvido será uma arquitetura em MVC, cuja representação utilizará de uma versão modificada do Modelo C4. Seguindo o padrão 'Contexto, Componente e Camada', ao inves de 'Contexto, Container, Componente, Codigo'. 
+  A arquitetura do software a ser desenvolvido será uma arquitetura em MVC, cuja representação utilizará de uma versão modificada do Modelo C4. Seguindo o padrão 'Contexto, Componente e Camada', ao invés de 'Contexto, Container, Componente, Código'. 
 
 ### 4.1 Diagrama de Contexto
 
@@ -70,10 +70,10 @@ Das partes externas, nos temos os **usuários**, que utilizam o software, e os s
  
 >![Image](https://github.com/Dener-arx/ufg-impacto/blob/main/Arquitetura/Imagem/Diagrama%20de%20Componentes.png)
 
-Os usuários tem acessa à aplicação atraves do componente **Cliente**, representado por seu navegador, que realiza a comunicação com o **Servidor**.
+Os usuários tem acessa à aplicação através do componente **Cliente**, representado por seu navegador, que realiza a comunicação com o **Servidor**.
 
-O componente **Servidor**, por sua vez, é responsável pela implementação das funcionalidades do sistema, atribuindo responsabilidades especificas a cada uma de suas camadas. Sendo utilizado a arquitetura MVC(Model, View, Controller), tem-se o seguinte:
-- View: Responsável pela apresentação do conteudo e interação com o usuário.
+O componente **Servidor**, por sua vez, é responsável pela implementação das funcionalidades do sistema, atribuindo responsabilidades específicas a cada uma de suas camadas. Sendo utilizado a arquitetura MVC(Model, View, Controller), tem-se o seguinte:
+- View: Responsável pela apresentação do conteúdo e interação com o usuário.
 - Controller: Responsável pela comunicação da camada View com a camada Model.
 - Model: Responsável pela manipulação de dados e pela lógica do sistema.
 
@@ -89,3 +89,5 @@ O diagrama a seguir apresenta a estrutura interna das camadas do componente **Se
 - Os elementos **JS** na camada **Model** são responsáveis por realizar as manipulações necessárias nos dados.
 - Os elementos **Dados** na camada **Model** representam os conjuntos de dados, que podem ser manipulados, ou usados diretamente.
 - O elemento **API** na camada **Model** representa uma interface para a obtenção dos dados. (Não Implementado). 
+
+
