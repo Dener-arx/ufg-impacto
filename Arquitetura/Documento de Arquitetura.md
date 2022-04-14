@@ -23,8 +23,25 @@
 
 
 ## 2. Contexto de Arquitetura
- 
+
+O contexto de arquitetura deste software é bastante amplo, sendo somente necessário implementar as funções designadas no escopo do projeto, não importando o metodo, contanto que seja seguida as decisões arquiteturais estabelecidas e o software seja funcional. 
+
 ### 2.1. Funcionalidades e Restrições Arquiteturais
+
+**Funções**
+|ID|Funcionalidade|Descrição|
+|--|--|--|
+|Fun01|Disponibilizar Projetos|O sistema deve disponibilizar projetos de acordo com seu tipo|
+|Fun02|Disponibilizar WordCloud|O sistema deve criar uma wordcloud para cada tipo de projeto|
+|Fun03|Buscar Palavra|Ao selecionar uma palavra o sistema deve exibir todos os projetos daquele tipo relacionados à ela|
+|Fun04|Disponibilizar Empresas|O sistema deve disponibilizar empresas ativas criadas por egressos da UFG|
+|Fun05|Disponibilizar Empregos|O sistema deve disponibilizar empregos criados por empresas fundadas por egressos da UFG|
+|Fun06|Dados de Ingressos|O sistema deve disponibilizar dados de ingressos da UFG|
+|Fun07|Dados de Egressos|O sistema deve disponibilizar dados de egressos da UFG|
+
+
+Restrições do Sistema
+
 
 Funcionalidades do sisteama.
 Os dados irão vir de fontes externas.
@@ -34,45 +51,31 @@ Os dados irão vir de fontes externas.
 O software está em seus estados iniciais, e será implementado mais funções, então deve-se priorizar a escalabilidade.
 O software lida com uma quantidade grande de dados, então eficiencia tambem é um atributo de qualidade importante.
 
-## 3. Representação da Arquitetura
-
-  A arquitetura do software a ser desenvolvido será uma arquitetura em MVC.
-
-## 4. Ponto de vista dos Casos de Uso
+## 3. Ponto de vista dos Casos de Uso
 
   
 
-### 4.1 Descrição
+### 3.1 Descrição
 
 
-### 4.2 Visão de Casos de Uso
+### 3.2 Visão de Casos de Uso
 
->![Image](https://github.com/Dener-arx/ufg-impacto/blob/main/Imagem/Casos%20de%20Uso.png)
-
-## 5. Ponto de vista do Projetista
+>![Image](https://github.com/Dener-arx/ufg-impacto/blob/main/Arquitetura/Imagem/Casos%20de%20Uso.png)
 
 
-### 5.1 Visão Geral
+## 4. Representação da Arquitetura
 
+  A arquitetura do software a ser desenvolvido será uma arquitetura em MVC.
 
-### 5.2 Visão de Componentes
+### 4.1 Diagrama de Contexto
 
+>![Image](https://github.com/Dener-arx/ufg-impacto/blob/main/Arquitetura/Imagem/Diagrama%20de%20Contexto.png)
 
-### 5.3 Detalhamento das Camadas
+### 4.2 Diagrama de Componentes
 
+>![Image](https://github.com/Dener-arx/ufg-impacto/blob/main/Arquitetura/Imagem/Diagrama%20de%20Componentes.png)
 
-## 6. Ponto de vista do Desenvolvedor
+### 4.3 Diagrama de Classes
 
-
-### 6.1 Visão Geral
-
-
-### 6.2 Visão lógica
-
-#### 6.2.1 Detalhamento das classes
-
-
-### 6.3 Visão de segurança
-
-#### 6.3.1 Detalhamento da segurança
+>![Image](https://github.com/Dener-arx/ufg-impacto/blob/main/Arquitetura/Imagem/Diagrama%20de%20Classes.png)
 
