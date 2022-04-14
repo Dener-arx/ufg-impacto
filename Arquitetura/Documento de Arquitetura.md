@@ -86,8 +86,8 @@ O diagrama a seguir apresenta a estrutura interna das camadas do componente **Se
 
 >![Image](https://github.com/Dener-arx/ufg-impacto/blob/main/Arquitetura/Imagem/Diagrama%20de%20Camadas.png)
 
-De forma geral:
-- Os elementos **HTML** e **CSS** na camada **View** são responsáveis, respectivamente, pela criação e estilização de uma interface gráfica web para o usuário.
-- Os elementos **JS** na camada **Controller** são responsáveis pela comunicação de suas respectivas interfaces, com a camada **Model**.
+#### De forma geral:
+- Os elementos **HTML** e **CSS** na camada **View** são responsáveis, respectivamente, pela criação e estilização de uma interface gráfica web.
+- Os elementos **JS** na camada **Controller** são responsáveis pela comunicação de suas respectivas interfaces com a camada **Model**.
 - Os elementos **JS** na camada **Model** são responsáveis por realizar as manipulações necessárias nos dados.
 - Os elementos **Dados** na camada **Model** representam os conjuntos de dados, que podem ser manipulados, ou usados diretamente.
