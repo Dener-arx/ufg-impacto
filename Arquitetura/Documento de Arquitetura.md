@@ -65,13 +65,28 @@ Desta forma, os atributos de qualidade prioritários durante o desenvolvimento d
 
 ### 4.1 Diagrama de Contexto
 
+O diagrama a seguir apresenta o contexto do sistema, mostrando suas interações com partes externas.
+
 >![Image](https://github.com/Dener-arx/ufg-impacto/blob/main/Arquitetura/Imagem/Diagrama%20de%20Contexto.png)
+
+Das partes externas, nos temos os **usuários**, que utilizam o software, e os sistemas fornecedores de dados, **UFG-Data, MEC/Gov, Other Data Systems.**
 
 ### 4.2 Diagrama de Componentes
 
+ O diagrama a seguir apresenta os componentes do sistema, e como eles interagem.
+ 
 >![Image](https://github.com/Dener-arx/ufg-impacto/blob/main/Arquitetura/Imagem/Diagrama%20de%20Componentes.png)
 
+Os usuários tem acessa à aplicação atraves do componente **Cliente**, representado por seu navegador, que realiza a comunicação com o **Servidor**.
+
+O componente **Servidor** é responsável pela implementação das funcionalidades do sistema, atribuindo responsabilidades a cada uma de suas camadas. Sendo utilizado a arquitetura MVC(Model, View, Controller), tem-se o seguinte:
+- View: Responsável pela apresentação do conteudo e interação com o usuário.
+- Controller: Responsável pela comunicação da camada View com a camada Model.
+- Model: Responsável pela manipulação de dados e pela lógica do sistema.
+
 ### 4.3 Diagrama de Classes
+
+
 
 >![Image](https://github.com/Dener-arx/ufg-impacto/blob/main/Arquitetura/Imagem/Diagrama%20de%20Classes.png)
 
